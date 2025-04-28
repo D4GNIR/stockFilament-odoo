@@ -1,0 +1,36 @@
+# Fichiers d'environnement
+.env
+.env.local
+.env.*
+
+# Fichiers de configuration sensible
+config/odoo.conf
+
+# Fichiers de cache et logs
+*.log
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Fichiers de développement
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Fichiers de base de données
+*.db
+*.sqlite3
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+
+# Fichiers temporaires
+*.tmp
+*.temp 
